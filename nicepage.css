@@ -36698,12 +36698,15 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
     width: auto;
-    margin-right: -415px;
-    margin-left: 415px;
+    margin-right: -249px;
+    margin-left: 249px;
   }
 
   .u-header .u-text-2 {
-    width: 146px;
+    width: auto;
+    margin-top: 18px;
+    margin-right: 377px;
+    margin-left: 417px;
   }
 }
 @media (max-width: 991px) {
@@ -36711,18 +36714,42 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: -81px;
     margin-left: 312px;
   }
+
+  .u-header .u-text-2 {
+    margin-left: 307px;
+    margin-right: 267px;
+  }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 173px;
+  }
+
   .u-header .u-text-1 {
+    margin-top: 38px;
     margin-right: -16px;
-    margin-left: 190px;
+    margin-left: 36px;
+  }
+
+  .u-header .u-text-2 {
+    margin-right: 177px;
+    margin-bottom: 38px;
+    margin-left: 217px;
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 161px;
+  }
+
   .u-header .u-text-1 {
-    font-size: 1.25rem;
-    margin-right: auto;
-    margin-left: 129px;
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: 37px;
+  }
+
+  .u-header .u-text-2 {
+    margin: 24px 79px 36px 115px;
   }
 }
 .u-footer .u-sheet-1 {
@@ -36880,13 +36907,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-2 {
-    margin-top: 98px;
-    margin-right: -180px;
-    margin-left: 180px;
+    margin-top: 66px;
+    margin-right: -169px;
+    margin-left: 169px;
   }
 
   .u-footer .u-layout-cell-3 {
-    min-height: 183px;
+    min-height: 191px;
   }
 
   .u-footer .u-container-layout-3 {
@@ -36895,7 +36922,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 65px;
+    height: 57px;
+    width: 123px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 575px) {
@@ -36911,6 +36941,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-cell-3 {
     min-height: 121px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    width: 123px;
   }
 }
 
